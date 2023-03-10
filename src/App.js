@@ -7,10 +7,10 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import './index.css';
-import NoteEditor from './editNote';
-import Sidebar from './rightMenu';
+import NoteEditor from './EditNote';
+import Sidebar from './RightMenu';
 import Header from './header';
-import NoteViewer from './saveNote';
+import NoteViewer from './SaveNote';
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(true);

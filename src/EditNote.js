@@ -4,7 +4,7 @@ import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
 
-function editNote({ activeNote, onUpdateNote, onPreviewNote, onDeleteNote, showSidebar }) {
+function EditNote({ activeNote, onUpdateNote, onPreviewNote, onDeleteNote, showSidebar }) {
 
     const navigate = useNavigate();
     const [setLastModified] = useState(activeNote ? activeNote.lastModified : null);
@@ -82,4 +82,4 @@ function editNote({ activeNote, onUpdateNote, onPreviewNote, onDeleteNote, showS
     );
 }
 
-export default editNote;
+export default EditNote;

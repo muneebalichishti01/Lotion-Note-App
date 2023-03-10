@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function rightMenu({
+function RightMenu({
   notes,
   onAddNote,
   activeNote,
@@ -71,4 +71,4 @@ function rightMenu({
   );
 }
 
-export default rightMenu;
+export default RightMenu;

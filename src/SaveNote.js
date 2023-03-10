@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
-function saveNote({ activeNote, onDeleteNote, onEditNote, showSidebar }) {
+function SaveNote({ activeNote, onDeleteNote, onEditNote, showSidebar }) {
   
   const navigate = useNavigate();
 
@@ -51,4 +51,4 @@ function saveNote({ activeNote, onDeleteNote, onEditNote, showSidebar }) {
   );
 }
 
-export default saveNote;
+export default SaveNote;

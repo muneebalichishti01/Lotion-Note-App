@@ -1,6 +1,8 @@
 # Lotion-Note-App
 In this project, I created a Notion-like application named Lotion with HTML, CSS, and React.
-Check it out here: [NETLIFY-ADDRESS](https://muneebali-lotion-app.netlify.app/notes)
+
+Check it out here: [LOTION APP](https://muneebali-lotion-app.netlify.app/notes)
+
 Note: [Netlify](https://www.netlify.com/) was used to deploy the application
 
 ## :foot: Steps
